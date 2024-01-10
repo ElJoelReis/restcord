@@ -159,7 +159,7 @@ class DiscordClient
             ->setAllowedTypes('apiUrl', ['string'])
             ->setAllowedTypes('rateLimitProvider', [AbstractRateLimitProvider::class])
             ->setAllowedTypes('throwOnRatelimit', ['bool'])
-            ->setAllowedTypes('logger', ['\Psr\Log\LoggerInterface'])
+            ->setAllowedTypes('logger', ['null', '\Psr\Log\LoggerInterface'])
             ->setAllowedTypes('version', ['string', 'integer'])
             ->setAllowedTypes('guzzleOptions', ['array']);
 
