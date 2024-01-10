@@ -315,7 +315,7 @@
                 "name": "Get Guild Member",
                 "method": "GET",
                 "url": "/guilds/{guild.id}/members/{user.id}",
-                "description": "",
+                "description": "guild member",
                 "responseNote": "Returns a guild member object for the specified user.",
                 "responseTypes": [
                     {
